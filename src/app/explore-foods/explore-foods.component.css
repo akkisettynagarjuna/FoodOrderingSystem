@@ -1,0 +1,17 @@
+#ab{
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid aliceblue;
+}
+.ss{
+    background-color: antiquewhite;
+    height: 56px;
+}
+#sdd{
+    padding-left: 500px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: oblique;
+}

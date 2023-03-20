@@ -1,0 +1,48 @@
+<html>
+  <body>
+    <!-- Section: Design Block -->
+<section class=" text-center text-lg-start">
+  <div class="card mb-3">
+    <div class="row g-0 d-flex align-items-center">
+      <div class="col-lg-4 d-none d-lg-flex">
+        <img src="https://images.unsplash.com/photo-1530554764233-e79e16c91d08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb2QlMjBkZWxpdmVyeXxlbnwwfHwwfHw%3D&w=1000&q=80"
+          class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" />
+      </div>
+      <div class="col-lg-8">
+        <img src="https://img.freepik.com/premium-vector/good-food-logo-template_79169-17.jpg?w=2000" alt="" height="250px" width="250px">&nbsp;
+        <img src="https://img.freepik.com/premium-vector/food-logo-design_139869-254.jpg" alt="" height="250px" width="300px">&nbsp;
+        <img src="https://i.pinimg.com/originals/82/be/d4/82bed479344270067e3d2171379949b3.png" alt="" height="250px" width="250px">
+        <div class="card-body py-5 px-md-5">
+          <form>
+            <!-- User input -->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="form2Example1">UserName</label>
+              <input type="email" #name id="form2Example1" class="form-control" placeholder="admin" />
+            </div><br/>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="form2Example2">Password</label>
+              <input type="password" #password id="form2Example2" class="form-control" placeholder="admin"/>
+             
+            </div>
+
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+              </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="button" class="btn btn-info" (click)="submitLogin(name.value,password.value)" style="margin-left: 350px; width: 150px;border-radius: 300px;">Login</button>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section: Design Block -->
+  </body>
+</html>
